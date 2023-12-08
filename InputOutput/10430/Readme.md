@@ -1,4 +1,4 @@
-# [Broze V: 나머지](https://www.acmicpc.net/problem/10430)
+# [Bronze V: 나머지](https://www.acmicpc.net/problem/10430)
 
 ## 문제
 (A+B)%C는 ((A%C) + (B%C))%C 와 같을까?
