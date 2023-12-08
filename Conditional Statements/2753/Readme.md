@@ -1,4 +1,4 @@
-# [Broze V: 윤년](https://www.acmicpc.net/problem/2753)
+# [Bronze V: 윤년](https://www.acmicpc.net/problem/2753)
 
 ## 문제
 연도가 주어졌을 때, 윤년이면 1, 아니면 0을 출력하는 프로그램을 작성하시오.
