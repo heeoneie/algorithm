@@ -1,4 +1,4 @@
-# [Broze V: 개](https://www.acmicpc.net/problem/10172)
+# [Bronze V: 개](https://www.acmicpc.net/problem/10172)
 
 ## 문제
 아래 예제와 같이 개를 출력하시오.
