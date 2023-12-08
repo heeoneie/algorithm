@@ -1,4 +1,4 @@
-# [Broze III: 알람 시계](https://www.acmicpc.net/problem/2884)
+# [Bronze III: 알람 시계](https://www.acmicpc.net/problem/2884)
 
 ## 문제
 상근이는 매일 아침 알람을 듣고 일어난다. 알람을 듣고 바로 일어나면 다행이겠지만, 항상 조금만 더 자려는 마음 때문에 매일 학교를 지각하고 있다.
