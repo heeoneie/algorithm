@@ -1,5 +1,5 @@
 '''
-가질 수 있는 포켓몬 = len(nums)//2 or len(set(nums))//2
+가질 수 있는 포켓몬 = len(nums)//2 or len(set(nums))
 '''
 def solution(nums):
     answer = 0
