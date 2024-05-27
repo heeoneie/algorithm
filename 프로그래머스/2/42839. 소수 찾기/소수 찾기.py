@@ -3,14 +3,11 @@
 '''
 from itertools import permutations
 def solution(numbers):
-    temp = set()
     res = set()
     ans = set()
 
     for i in range(1,len(numbers)+1):
-        temp.update(permutations(numbers, i))
-    for i in temp:
-        res.add(int(''.join(map(str, i))))
+        res.update(int(''.join(p)) for p in permutations(numbers, i))
 
     for num in res:
         if num < 2:
