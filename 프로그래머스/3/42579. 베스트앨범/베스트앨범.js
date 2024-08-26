@@ -13,6 +13,5 @@ function solution(genres, plays) {
         ans.push(genre.songs[0].id);
         if (genre.songs.length > 1) ans.push(genre.songs[1].id);
     }
-    return ans
-    
+    return ans;
 }
