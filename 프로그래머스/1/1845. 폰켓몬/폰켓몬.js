@@ -1,4 +1,4 @@
 function solution(nums) {
-    const poketmons = new Set(nums);
-    return Math.min(poketmons.size, nums.length/2);
+    const poketmonMap = new Set(nums);
+    return Math.min(poketmonMap.size, nums.length/2);
 }
