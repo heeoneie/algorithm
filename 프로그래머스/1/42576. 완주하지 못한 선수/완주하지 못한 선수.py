@@ -1,15 +1,17 @@
 def solution(participant, completion):
     answer = ''
-    not_completion = {}
+    d = {}
     for p in participant:
-        if p in not_completion:
-            not_completion[p] += 1
+        if p in d:
+            d[p] += 1
         else:
-            not_completion[p] = 1
+            d[p] = 1
+            
     for c in completion:
-        if c in not_completion:
-            not_completion[c] -= 1
-    for p in participant:
-        if not_completion[p] != 0:
-            answer = p
+        if c in d:
+            d[c] -= 1
+            
+    for name, cnt in d.items():
+        if cnt != 0:
+            answer += name
     return answer
