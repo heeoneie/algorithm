@@ -1,13 +1,8 @@
-'''
-1. commands 루프 돌리면서 i,j,k 뽑음
-2. array [i-1:j]로 자르고 sort후 k-1 answer에 추가
-'''
+# 2 5 3 인 경우 슬라이싱과 인덱싱을 어떻게 할 건가
+# 2번째와 5번째니까 array[i-1:i+1] 정렬 후 k-1번째
 def solution(array, commands):
     answer = []
-    for command in commands:
-        res = array
-        i,j,k = command[0], command[1], command[2]
-        res = res[i-1:j]
-        res.sort()
-        answer.append(res[k-1])
+    for c in commands:
+        i,j,k = c[0]-1, c[1], c[2]-1
+        answer.append(sorted(array[i:j])[k])
     return answer
